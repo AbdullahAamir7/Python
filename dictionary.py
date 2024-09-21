@@ -1,17 +1,8 @@
-dict1={162:"Zain",335:"Saad",158:"Umer"}
-dict2={'fruits':["Apple","Mango","Bnana"]}
+my_dict={'Name':"Ali",'Age':17,'Grade':"A+"}
 
-print(dict1[335])
-print(dict2)
 
-dict1[354]="ali"
-print(dict1)
+my_dict['Age']=18
 
-dict1[158]="Hassan"
-print(dict1)
+my_dict['Gender']="Male"
 
-dict1.pop(162)
-print(dict1)
-
-dict1.clear()
-print(dict1)
+print(my_dict)
